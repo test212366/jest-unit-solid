@@ -1,0 +1,23 @@
+body {
+    box-sizing: border-box;
+}
+.body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+.btn {
+    margin: 10px;
+}
+.calculator {
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    max-width: 400px;
+}
+.input {
+    padding: 3px;
+    font-size: 20px;
+    min-width: 100%;
+}
